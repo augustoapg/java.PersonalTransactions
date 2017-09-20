@@ -1,0 +1,40 @@
+/*
+    Name: Augusto Araujo Peres Goncalez
+    File:  main.css
+    Other Files in this Project:
+    Main.java
+    FXMLFinalProjectController.java
+    FXMLFinalProject.fxml
+    TransactionList.java
+    Transaction.java
+    ids.txt
+    transactions.txt
+    
+    Main class: Main.java
+*/
+
+/* Set all the font in the app for monospace */
+.root {
+    -fx-font-family: monospace;
+}
+
+/* Set all labels to be bold and with a bigger size */
+.label {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+}
+
+/* Sets error messages to have red font */
+.error {
+    -fx-text-fill: red;
+}
+
+/* Sets success messages to have green font */
+.success {
+    -fx-text-fill: green;
+}
+
+/* Increases size of the font from ListView */
+.list-view {
+    -fx-font-size: 1.2em;
+}
